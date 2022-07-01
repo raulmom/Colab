@@ -114,7 +114,7 @@ end
 
 end sat_fun
 
-lemma lemma_2_25 {Ω : Type _} {Φ : setoid (Ω)} {L: set (Ω)}: 
+lemma remark_2_25 {Ω : Type _} {Φ : setoid (Ω)} {L: set (Ω)}: 
   @sat_fun (Ω) (Φ) (L) = quotient.mk ⁻¹' (quotient.mk '' (L)) :=
 begin
   ext1,
